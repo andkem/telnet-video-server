@@ -1,0 +1,9 @@
+[Unit]
+Description=Telnet Video Server
+After=network.target
+
+[Service]
+ExecStart=/usr/bin/tvs.py
+
+[Install]
+WantedBy=multi-user.target

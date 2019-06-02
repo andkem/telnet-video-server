@@ -1,0 +1,10 @@
+The Telnet Video Server is a simple telnet server that sends a random
+video from /usr/share/video and sends it to the connecting telnet
+client.
+
+It uses the tct renderer of mpv to render the video to unicode.
+
+Dependencies:
+    Python 3
+    libtelnet3 - Python telnet library
+    mpv - media player
